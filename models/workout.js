@@ -39,7 +39,9 @@ const WorkoutTracker = new Schema({
     }
         
     ]
-});
+}, {
+    
+}
   
 const Workout = mongoose.model("Workout", WorkoutTracker);
 

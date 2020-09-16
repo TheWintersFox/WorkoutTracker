@@ -15,7 +15,7 @@ app.use(express.static("public"));
 
 app.use(logger("dev"));
 
-mongoose.connect("mongodb://localhost/workout", {
+mongoose.connect("mongodb://localhost/WorkoutTracker", {
   useNewUrlParser: true,
   useFindAndModify: false
 });
