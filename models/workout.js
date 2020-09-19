@@ -44,7 +44,7 @@ const WorkoutTracker = new Schema({
        virtuals: true
    }
 
-}
+});
   
 const Workout = mongoose.model("Workout", WorkoutTracker);
 
